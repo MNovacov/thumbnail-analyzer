@@ -4,8 +4,31 @@
   <meta charset="utf-8">
   <title>ThumbnailAnalyzer</title>
   <base href="/">
+
+  <!-- Hacer que se vea bien en dispositivos móviles -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- Favicon con el ícono proporcionado -->
+  <link
+    rel="icon"
+    type="image/png"
+    href="https://static-00.iconduck.com/assets.00/youtube-icon-2048x1437-0zwl4mo9.png"
+  >
+
+  <!-- (1) Conexión anticipada a fonts.gstatic para optimizar carga de tipografías -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Preconnect + Import de la fuente Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- (3) Meta para SEO si lo deseas -->
+  <meta name="description" content="Analizador de Thumbnails con Angular.">
+
 </head>
 <body>
   <app-root></app-root>
