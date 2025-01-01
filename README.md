@@ -37,45 +37,6 @@ Puedes ver la aplicación en funcionamiento en:
 - [npm](https://www.npmjs.com/) (instalado con Node.js)
 - [Angular CLI](https://angular.io/cli)
 
-### Instalación
-1. Clona el repositorio:
-
-    ```bash
-    git clone https://github.com/MNovacov/thumbnail-analyzer.git
-    ```
-2. Ingresa a la carpeta del proyecto:
-
-    ```bash
-    cd thumbnail-analyzer
-    ```
-3. Instala dependencias:
-
-    ```bash
-    npm install
-    ```
-
-### Uso
-- Para **desarrollo local**, ejecuta:
-
-    ```bash
-    ng serve
-    ```
-  Luego abre [http://localhost:4200/](http://localhost:4200/) en tu navegador.
-
-- Para **producción** (por ejemplo, desplegar en GitHub Pages):
-
-    ```bash
-    ng build --configuration production
-    ```
-  Esto generará la carpeta `dist/thumbnail-analyzer` lista para servir.
-
-### Contribución
-¡Todas las contribuciones son bienvenidas!  
-1. Haz un fork del proyecto.  
-2. Crea una rama con tu feature o fix (`git checkout -b feature/nueva-funcionalidad`).  
-3. Haz commit de tus cambios (`git commit -m 'Agrega nueva funcionalidad'`).  
-4. Haz push a tu rama (`git push origin feature/nueva-funcionalidad`).  
-5. Abre un Pull Request en este repositorio.  
 
 ### Licencia
 Este proyecto está bajo la [MIT License](LICENSE). Siéntete libre de usarlo y modificarlo según tus necesidades.
@@ -117,45 +78,6 @@ Check out the live demo here:
 - [npm](https://www.npmjs.com/) (comes with Node.js)
 - [Angular CLI](https://angular.io/cli)
 
-### Installation
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/MNovacov/thumbnail-analyzer.git
-    ```
-2. Navigate to the project folder:
-
-    ```bash
-    cd thumbnail-analyzer
-    ```
-3. Install dependencies:
-
-    ```bash
-    npm install
-    ```
-
-### Usage
-- **Local development**:
-
-    ```bash
-    ng serve
-    ```
-  Then open [http://localhost:4200/](http://localhost:4200/) in your browser.
-
-- **Production build** (e.g., for GitHub Pages):
-
-    ```bash
-    ng build --configuration production
-    ```
-  This will generate the `dist/thumbnail-analyzer` folder, ready for deployment.
-
-### Contributing
-We welcome all contributions!  
-1. Fork the project.  
-2. Create a branch for your feature or fix (`git checkout -b feature/new-feature`).  
-3. Commit your changes (`git commit -m 'Add new feature'`).  
-4. Push your branch (`git push origin feature/new-feature`).  
-5. Open a Pull Request in this repository.
 
 ### License
 This project is released under the [MIT License](LICENSE). Feel free to use and modify it according to your needs.
