@@ -1,18 +1,4 @@
-/* 1) Reset de márgenes y altura */
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-  }
-  
-  /* 2) Fondo degradado suave */
-  body {
-    /* Cambia los colores si deseas un degradado distinto */
-    background: linear-gradient(135deg, #f0faff 0%, #8e9eab 100%);
-    font-family: 'Roboto', sans-serif;
-    color: #333;
-  }
-  
+
   /* 3) Contenedor global para centrar vertical/horizontal */
   .container {
     display: flex;
