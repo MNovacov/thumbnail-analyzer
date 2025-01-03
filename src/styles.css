@@ -7,7 +7,6 @@ html, body {
   
   /* 2) Fondo degradado suave */
   body {
-    /* Cambia los colores si deseas un degradado distinto */
     background: linear-gradient(135deg, #f0faff 0%, #8e9eab 100%);
     font-family: 'Roboto', sans-serif;
     color: #333;

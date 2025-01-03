@@ -53,8 +53,6 @@ export class AppComponent {
         Color dominante: rgb(${dominantColor.join(', ')})
         → ${colorVerdict}
 
-        Texto detectado: "${detectedText}"
-        → ${textVerdict}
 
         Conclusión: ${conclusion}
       `;
@@ -117,10 +115,10 @@ export class AppComponent {
           data[i + 2] = bin; // B
         }
 
-        // Guardamos la imagen modificada en el canvas
+        // Imagen modificada en el canvas
         ctx.putImageData(imageData, 0, 0);
 
-        // Creamos un nuevo dataURL binarizado
+        // Nuevo dataURL binarizado
         const processedDataUrl = canvas.toDataURL('image/png');
         resolve(processedDataUrl);
       };
@@ -129,12 +127,12 @@ export class AppComponent {
     });
   }
 
-  // ============== 3) USAR TESSERACT PARA EXTRAER TEXTO (CON PREPROCESADO) ==============
+  // ============== 3) TESSERACT PARA EXTRAER TEXTO (CON PREPROCESADO) ==============
   async getDetectedText(dataUrl: string): Promise<string> {
     // Preprocesar la imagen para mejorar OCR
     const processedDataUrl = await this.preprocessImage(dataUrl);
 
-    // Forzamos cast a 'any' si queremos usar config
+    // Forzamos cast a 'any'
     const TesseractAny = Tesseract as any;
 
     // Llamada a Tesseract
