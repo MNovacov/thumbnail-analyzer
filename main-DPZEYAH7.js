@@ -8,7 +8,7 @@ ${n.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
         Color dominante: rgb(${t.join(", ")})
         \u2192 ${r}
 
-        Texto detectado: "${n}"
+        Texto detectado:
         \u2192 ${o}
 
         Conclusi\xF3n: ${s}
